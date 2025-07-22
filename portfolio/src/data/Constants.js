@@ -112,15 +112,12 @@ export const experiences = [
         desc: "Handled end-to-end development of web applications, from building user interfaces with ReactJS and vanilla JavaScript to designing and implementing REST APIs using Node.js, Express, and PostgreSQL. Actively involved in feature planning, database modeling, and performance optimization.",
         skills: [
             "ReactJS",
-            "Redux",
             "NodeJs",
             "Material UI",
             "HTML",
             "CSS",
             "JavaScript",
-            "Docker",
-            "AWS",
-            "MongoDB",
+            "Postgresql",
         ],
     },
     {
@@ -133,12 +130,12 @@ export const experiences = [
         desc: "Worked on developing responsive frontend interfaces using ReactJS, Material UI, and vanilla JavaScript. Collaborated closely with the backend team to integrate APIs and enhance the overall user experience.",
         skills: [
             "ReactJS",
-            "Redux",
             "NodeJs",
             "Material UI",
             "HTML",
             "CSS",
             "JavaScript",
+            "Postgresql",
         ],
         // doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
     }
