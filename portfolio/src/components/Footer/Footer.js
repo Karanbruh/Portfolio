@@ -83,27 +83,28 @@ const Copyright = styled.p`
 `;
 
 function Footer() {
-    return (
-        <FooterContainer>
-            <FooterWrapper>
-                <Logo>Karan Panchal</Logo>
-                <Nav>
-                    <NavLink href="#about">About</NavLink>
-                    <NavLink href="#skills">Skills</NavLink>
-                    <NavLink href="#projects">Projects</NavLink>
-                    <NavLink href="#education">Education</NavLink>
-                </Nav>
-                <SocialMediaIcons>
-                    <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-                    <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
-                </SocialMediaIcons>
-                <Copyright>
-                    &copy; 2023 Karan Panchal. All rights reserved.
-                </Copyright>
+  return (
+    <FooterContainer>
+      <FooterWrapper>
+        <Logo>Karan Panchal</Logo>
+        <Nav>
+          <NavLink href="#about">About</NavLink>
+          <NavLink href="#skills">Skills</NavLink>
+          <NavLink href="#experience">Experience</NavLink>
+          <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#education">Education</NavLink>
+        </Nav>
+        <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+        </SocialMediaIcons>
+        <Copyright>
+          &copy; 2023 Karan Panchal. All rights reserved.
+        </Copyright>
 
-            </FooterWrapper>
-        </FooterContainer>
-    );
+      </FooterWrapper>
+    </FooterContainer>
+  );
 }
 
 export default Footer;

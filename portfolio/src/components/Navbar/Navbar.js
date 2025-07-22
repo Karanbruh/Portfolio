@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from 'styled-components';
 import { DiCssdeck } from 'react-icons/di';
 import { FaBars } from 'react-icons/fa';
-import { Bio } from "../../data/Constants";
+import { Bio } from '../../data/Constants';
 
 const Nav = styled.div`
     background-color: ${({ theme }) => theme.card_light};
@@ -199,11 +199,12 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
+          <NavLink href='#experience'>Experience</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github}>Github Profile</GitHubButton>
+          <GitHubButton target="_blank" href={Bio.github}>Github Profile</GitHubButton>
         </ButtonContainer>
       </NavContainer>
       {
@@ -215,13 +216,16 @@ const Navbar = () => {
             <MobileMenuLink href='#skills' onClick={() => {
               setOpen(!open)
             }}>Skills</MobileMenuLink>
+            <MobileMenuLink href='#experience' onClick={() => {
+              setOpen(!open)
+            }}>Experience</MobileMenuLink>
             <MobileMenuLink href='#projects' onClick={() => {
               setOpen(!open)
             }}>Projects</MobileMenuLink>
             <MobileMenuLink href='#education' onClick={() => {
               setOpen(!open)
             }}>Education</MobileMenuLink>
-            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} href={Bio.github}>Github Profile</GitHubButton>
+            <GitHubButton style={{ padding: '10px 16px', background: `${theme.primary}`, color: 'white', width: 'max-content' }} target="_blank" href={Bio.github}>Github Profile</GitHubButton>
           </MobileMenu>
         )
       }
