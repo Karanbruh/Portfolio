@@ -1,4 +1,6 @@
 import photo from '../images/catv.png'
+import yelpCampPhoto from '../images/yelpcamp_img.png'
+import portfolioPhoto from '../images/portfolio.png'
 
 export const Bio = {
     name: "Karan Panchal",
@@ -179,8 +181,7 @@ export const projects = [
         date: "Jun 2023 - Jul 2023",
         description:
             "YelpCamp is a dynamic and interactive campground directory website, meticulously designed to offer users a robust platform for exploring, discovering, and sharing their cherished camping destinations throughout the USA. This project serves as a showcase of my expertise in full-stack web development, leveraging a stack that includes MongoDB, Node.js, Express.js, Bootstrap, and Mapbox GL to create a feature-rich web application. Notably, the application also incorporates authentication and authorization functionalities, demonstrating my proficiency in building secure and user-friendly web solutions.",
-        image:
-            "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+        image: yelpCampPhoto,
         tags: [
             "HTML",
             "CSS",
@@ -216,8 +217,7 @@ export const projects = [
         date: "Aug 2023 - Sep 2023",
         description:
             "My portfolio is a dynamic and visually engaging website created using React.js, Material-UI. It serves as a comprehensive showcase of my professional journey, highlighting my projects, educational background, and more. Through this platform, I aim to provide a glimpse into my skills, accomplishments, and experiences, allowing visitors to explore my work and learn more about me.",
-        image:
-            "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+        image: portfolioPhoto,
         tags: ["React JS", "Material ui"],
         category: "front-end",
         github: "https://github.com/Karanbruh",
