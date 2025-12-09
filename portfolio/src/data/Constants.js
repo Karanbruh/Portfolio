@@ -7,12 +7,13 @@ export const Bio = {
     roles: [
         "Full Stack Developer",
         "Website Developer",
+        "Pern Stack Developer",
         "Mern Stack Developer",
     ],
     description:
         "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/Karanbruh",
-    resume: "/karan_r_panchal.pdf",
+    resume: "https://drive.google.com/file/d/1-jkEEdBSFbGCCLDhr9KVbUH5q23IM1OI/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/karan-panchal-mern/",
     insta: "https://www.instagram.com/karanpxnchal/",
 };
